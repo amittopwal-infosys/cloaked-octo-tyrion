@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1766914A16F0942600E67403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1766914916F0942600E67403 /* UIKit.framework */; };
+		1766914C16F0942600E67403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1766914B16F0942600E67403 /* Foundation.framework */; };
+		1766914E16F0942600E67403 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1766914D16F0942600E67403 /* CoreGraphics.framework */; };
+		1766915416F0942600E67403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1766915216F0942600E67403 /* InfoPlist.strings */; };
+		1766915616F0942600E67403 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1766915516F0942600E67403 /* main.m */; };
+		1766915A16F0942600E67403 /* ATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1766915916F0942600E67403 /* ATAppDelegate.m */; };
+		1766915D16F0942600E67403 /* ATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1766915C16F0942600E67403 /* ATViewController.m */; };
+		1766916016F0942600E67403 /* ATViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1766915E16F0942600E67403 /* ATViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1766914516F0942600E67403 /* SampleGitTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGitTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1766914916F0942600E67403 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1766914B16F0942600E67403 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1766914D16F0942600E67403 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1766915116F0942600E67403 /* SampleGitTest2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleGitTest2-Info.plist"; sourceTree = "<group>"; };
+		1766915316F0942600E67403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1766915516F0942600E67403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1766915716F0942600E67403 /* SampleGitTest2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleGitTest2-Prefix.pch"; sourceTree = "<group>"; };
+		1766915816F0942600E67403 /* ATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAppDelegate.h; sourceTree = "<group>"; };
+		1766915916F0942600E67403 /* ATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAppDelegate.m; sourceTree = "<group>"; };
+		1766915B16F0942600E67403 /* ATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATViewController.h; sourceTree = "<group>"; };
+		1766915C16F0942600E67403 /* ATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATViewController.m; sourceTree = "<group>"; };
+		1766915F16F0942600E67403 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ATViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1766914216F0942600E67403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1766914A16F0942600E67403 /* UIKit.framework in Frameworks */,
+				1766914C16F0942600E67403 /* Foundation.framework in Frameworks */,
+				1766914E16F0942600E67403 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1766913A16F0942600E67403 = {
+			isa = PBXGroup;
+			children = (
+				1766914F16F0942600E67403 /* SampleGitTest2 */,
+				1766914816F0942600E67403 /* Frameworks */,
+				1766914616F0942600E67403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1766914616F0942600E67403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1766914516F0942600E67403 /* SampleGitTest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1766914816F0942600E67403 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1766914916F0942600E67403 /* UIKit.framework */,
+				1766914B16F0942600E67403 /* Foundation.framework */,
+				1766914D16F0942600E67403 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1766914F16F0942600E67403 /* SampleGitTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				1766915816F0942600E67403 /* ATAppDelegate.h */,
+				1766915916F0942600E67403 /* ATAppDelegate.m */,
+				1766915B16F0942600E67403 /* ATViewController.h */,
+				1766915C16F0942600E67403 /* ATViewController.m */,
+				1766915E16F0942600E67403 /* ATViewController.xib */,
+				1766915016F0942600E67403 /* Supporting Files */,
+			);
+			path = SampleGitTest2;
+			sourceTree = "<group>";
+		};
+		1766915016F0942600E67403 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1766915116F0942600E67403 /* SampleGitTest2-Info.plist */,
+				1766915216F0942600E67403 /* InfoPlist.strings */,
+				1766915516F0942600E67403 /* main.m */,
+				1766915716F0942600E67403 /* SampleGitTest2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1766914416F0942600E67403 /* SampleGitTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1766916316F0942600E67403 /* Build configuration list for PBXNativeTarget "SampleGitTest2" */;
+			buildPhases = (
+				1766914116F0942600E67403 /* Sources */,
+				1766914216F0942600E67403 /* Frameworks */,
+				1766914316F0942600E67403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleGitTest2;
+			productName = SampleGitTest2;
+			productReference = 1766914516F0942600E67403 /* SampleGitTest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1766913C16F0942600E67403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AT;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Amit Topwal";
+			};
+			buildConfigurationList = 1766913F16F0942600E67403 /* Build configuration list for PBXProject "SampleGitTest2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1766913A16F0942600E67403;
+			productRefGroup = 1766914616F0942600E67403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1766914416F0942600E67403 /* SampleGitTest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1766914316F0942600E67403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1766915416F0942600E67403 /* InfoPlist.strings in Resources */,
+				1766916016F0942600E67403 /* ATViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1766914116F0942600E67403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1766915616F0942600E67403 /* main.m in Sources */,
+				1766915A16F0942600E67403 /* ATAppDelegate.m in Sources */,
+				1766915D16F0942600E67403 /* ATViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1766915216F0942600E67403 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1766915316F0942600E67403 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1766915E16F0942600E67403 /* ATViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1766915F16F0942600E67403 /* en */,
+			);
+			name = ATViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1766916116F0942600E67403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1766916216F0942600E67403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1766916416F0942600E67403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleGitTest2/SampleGitTest2-Prefix.pch";
+				INFOPLIST_FILE = "SampleGitTest2/SampleGitTest2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1766916516F0942600E67403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleGitTest2/SampleGitTest2-Prefix.pch";
+				INFOPLIST_FILE = "SampleGitTest2/SampleGitTest2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1766913F16F0942600E67403 /* Build configuration list for PBXProject "SampleGitTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1766916116F0942600E67403 /* Debug */,
+				1766916216F0942600E67403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1766916316F0942600E67403 /* Build configuration list for PBXNativeTarget "SampleGitTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1766916416F0942600E67403 /* Debug */,
+				1766916516F0942600E67403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1766913C16F0942600E67403 /* Project object */;
+}
