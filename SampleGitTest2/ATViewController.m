@@ -14,6 +14,8 @@
 
 @implementation ATViewController
 
+@synthesize username,password;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -31,4 +33,14 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+-(IBAction)OnSubmit:(id)sender
+{
+    NSString* name = username.text;
+    NSString* pwd = password.text;
+    
+    if ([name isEqual:@""] || [pwd isEqual:@""])
+    {
+        NSLog(@"Field should not be blank");
+    }
+}
 @end

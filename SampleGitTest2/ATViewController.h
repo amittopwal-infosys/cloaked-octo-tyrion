@@ -10,4 +10,9 @@
 
 @interface ATViewController : UIViewController
 
+@property (strong) IBOutlet UITextField* username;
+@property (strong) IBOutlet UITextField* password;
+
+-(IBAction)OnSubmit:(id)sender;
+
 @end
